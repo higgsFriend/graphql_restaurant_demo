@@ -1,4 +1,5 @@
 # Graphql queries used:
+```
 query getResturant($id: Int = 2) {
   restaurant(id: $id) {
     id
@@ -37,6 +38,7 @@ mutation editrestaurants($idd: Int = 0, $name: String = "OLDO") {
     description
   }
 }
+```
 
 # Install older version of node
 nvm install 14.19.2
